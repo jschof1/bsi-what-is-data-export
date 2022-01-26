@@ -1,0 +1,16 @@
+// to be added to course/config.json
+
+{
+	"_footerLinks": {
+	  "_items": [
+            { 
+                "title": "Terms and Conditions",
+				"_link": "https://www.adaptlearning.org/",
+	    	},
+	    	{ 
+                "title": "Licence",
+				"_link": "https://www.adaptlearning.org/",
+	    	}
+	  ]
+	}
+}

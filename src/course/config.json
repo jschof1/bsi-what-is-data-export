@@ -1,0 +1,86 @@
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_fixes": {
+    "_imgLazyLoad": true
+  },
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": true,
+  "_disableAnimationFor": [],
+  "_id": "61f15f62134761027a95fa27",
+  "__v": 1,
+  "_accessibility": {
+    "_isEnabled": false,
+    "_isSkipNavigationEnabled": true,
+    "_ariaLevels": {
+      "_menu": 1,
+      "_menuGroup": 2,
+      "_menuItem": 2,
+      "_page": 1,
+      "_article": 2,
+      "_block": 3,
+      "_component": 4,
+      "_componentItem": 5,
+      "_notify": 1
+    }
+  },
+  "_courseId": "61f15f62134761027a95fa22",
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
+  },
+  "screenSize": {
+    "large": 1024,
+    "medium": 519,
+    "small": 519
+  },
+  "_completionCriteria": {
+    "_requireContentCompleted": false,
+    "_requireAssessmentCompleted": true
+  },
+  "_logging": {
+    "_isEnabled": true,
+    "_level": "info",
+    "_console": true,
+    "_warnFirstOnly": true
+  },
+  "_scrollingContainer": {
+    "_isEnabled": false,
+    "_limitToSelector": ""
+  },
+  "_spoor": {
+    "_isEnabled": true,
+    "_tracking": {
+      "_shouldSubmitScore": true,
+      "_shouldStoreResponses": true,
+      "_shouldStoreAttempts": false,
+      "_shouldRecordInteractions": true
+    },
+    "_reporting": {
+      "_onTrackingCriteriaMet": "passed",
+      "_onAssessmentFailure": "failed",
+      "_resetStatusOnLanguageChange": false
+    },
+    "_advancedSettings": {
+      "_showDebugWindow": false,
+      "_commitOnStatusChange": true,
+      "_commitOnAnyChange": false,
+      "_timedCommitFrequency": 10,
+      "_maxCommitRetries": 5,
+      "_commitRetryDelay": 2000,
+      "_suppressErrors": true,
+      "_commitOnVisibilityChangeHidden": true,
+      "_manifestIdentifier": "what_is_data",
+      "_exitStateIfIncomplete": "auto",
+      "_exitStateIfComplete": "auto"
+    }
+  },
+  "_trickle": {
+    "_completionAttribute": "_isComplete"
+  },
+  "_devtools": {
+    "_isEnabled": false
+  }
+}

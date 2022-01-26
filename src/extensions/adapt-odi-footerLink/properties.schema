@@ -1,0 +1,94 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties" : {
+        "pluginLocations" : {
+            "type" : "object",
+            "required" : true,
+            "properties" : {
+                "course" : {
+                    "type" : "object",
+                    "properties" : {
+                        "_FooterLink" : {
+                            "type" : "object",
+                            "required" : false,
+                            "legend" : "Footer Links",
+                            "properties" : {
+                                "_items" : {
+                                    "type" : "array",
+                                    "required" : true,
+                                    "title" : "Items",
+                                    "items" : {
+                                        "type" : "object",
+                                        "required" : true,
+                                        "properties" : {
+                                            "title" : {
+                                                "type" : "string",
+                                                "inputType" : "Text",
+                                                "title" : "Title",
+                                                "default" : "",
+                                                "validators" : [],
+                                                "help" : "A title",
+                                                "translatable" : true
+                                            },
+                                            "link": {
+                                              "type": "string",
+                                              "default": "Links",
+                                              "title": "",
+                                              "inputType": "Text",
+                                              "validators": [],
+                                              "translatable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "contentobject" : {
+                    "type" : "object",
+                    "properties" : {
+                        "_FooterLink" : {
+                            "type" : "object",
+                            "required" : false,
+                            "legend" : "Footer Links",
+                            "properties" : {
+                                "_items" : {
+                                    "type" : "array",
+                                    "required" : true,
+                                    "title" : "Items",
+                                    "items" : {
+                                        "type" : "object",
+                                        "required" : true,
+                                        "properties" : {
+                                            "title" : {
+                                                "type" : "string",
+                                                "inputType" : "Text",
+                                                "title" : "Title",
+                                                "default" : "",
+                                                "validators" : [],
+                                                "help" : "A title",
+                                                "translatable" : true
+                                            },
+                                            "link": {
+                                              "type": "string",
+                                              "default": "Links",
+                                              "title": "",
+                                              "inputType": "Text",
+                                              "validators": [],
+                                              "translatable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

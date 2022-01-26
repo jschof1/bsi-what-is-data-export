@@ -1,0 +1,17 @@
+{
+  "name": "adapt-odi-footerLink",
+  "version": "0.2.1",
+  "framework": ">=5.2.0",
+  "homepage": "https://github.com/theodi/adapt-odi-footerLink",
+  "issues": "",
+  "displayName" : "Footer links",
+  "extension" : "FooterLink",
+  "targetAttribute" : "_FooterLink",
+  "description": "Add arbitrary links to the footer of a page.",
+  "main": "/js/adapt-odi-footerLink.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3"
+}

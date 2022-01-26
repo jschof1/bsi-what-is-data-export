@@ -1,0 +1,17 @@
+{
+  "name": "adapt-odi-licence",
+  "version": "0.5.1",
+  "framework": ">=5.2.0",
+  "homepage": "https://github.com/theodi/adapt-odi-licence",
+  "issues": "",
+  "displayName" : "Licence terms (in Tutor)",
+  "extension" : "ODILicence",
+  "targetAttribute" : "_ODILicence",
+  "description": "Add ODI Licesing template for adapt courses",
+  "main": "/js/adapt-odi-licence.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3"
+}
